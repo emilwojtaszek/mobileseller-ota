@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>MobileSeller</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
 <body>
-	<div>
-		<p><strong>MobileSeller - Enterprise In-House App Distribution</strong></p>
-		<p><a href="itms-services://?action=download-manifest&url=https://www.dropbox.com/s/bmxrcij1a4u86af/manifest.plist?dl=1">Download Your App</a></p>
-	</div>
+
+<div class="header">
+  <h1>MobileSeller</h1>
+  <p>Enterprise In-House App Distribution</p>
+</div>
+<div class="content">
+  <p>To install the app, just click the button below:</p>
+  <button class="btn" style="width:100%" type="submit" onclick="window.location.href='itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/bmxrcij1a4u86af/manifest.plist';"><i class="fa fa-download"></i>Install App</button>  
+</div>
 </body>
 </html>
