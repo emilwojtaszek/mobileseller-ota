@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.dropbox.com/s/2vzv4ghuywz8ume/MobileSeller.ipa?dl=1</string>
+					<string>https://emilwojtaszek.github.io/mobileseller-ota/MobileSeller.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://www.dropbox.com/s/r9injak6xtxyxje/display-image.png?dl=1</string>
+					<string>https://emilwojtaszek.github.io/mobileseller-ota/display-image.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://www.dropbox.com/s/bry2bohwhzrc7ta/full-size-image.png?dl=1</string>
+					<string>https://emilwojtaszek.github.io/mobileseller-ota/full-size-image.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
