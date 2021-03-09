@@ -3,7 +3,8 @@
 <head>
 <title>MobileSeller</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -22,7 +23,8 @@
 
 body {
   font-family: Arial;
-  margin: 0;
+  padding-top: constant(safe-area-inset-top);  
+  padding-bottom: constant(safe-area-inset-bottom);
 }
 
 .header {
@@ -45,7 +47,7 @@ body {
 </div>
 <div class="content">
   <p>To install the app, just click the button below:</p>
-  <button class="btn" style="width:100%" type="submit" onclick="window.location.href='itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/bmxrcij1a4u86af/manifest.plist';"><i class="fa fa-download"></i>Install App</button>  
+  <button class="btn" style="width:100%" type="submit" onclick="window.location.href='itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/bmxrcij1a4u86af/manifest.plist';"><i class="fa fa-download"></i> Install App</button>  
 </div>
 </body>
 </html>
